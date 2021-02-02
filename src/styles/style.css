@@ -1,0 +1,35 @@
+/*Adventure Component*/
+.image {
+  width: 279.5px;
+  height: 186.31px
+}
+
+.name {
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 0px;
+}
+
+.reviews {
+  width: 63.27px;
+  height: 14px;
+  color: #333333;
+  font: 14px
+}
+
+/*List Styling*/
+
+.list {
+  margin-left: 80px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+
+  .adventure {
+    flex: 0 0 auto;
+  }
+}
+
+.body {
+  background: #f9f2ea
+}

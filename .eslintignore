@@ -1,0 +1,8 @@
+node_modules
+public
+config
+scraper
+__specs__
+/src/styles
+coverage
+__mocks__

@@ -1,0 +1,7 @@
+*node_modules
+.DS_Store
+/scraper/thailandPics
+/scraper/unsplashConfig.js
+eslintrc.js
+/scraper/unsplashScraper.js
+/coverage
