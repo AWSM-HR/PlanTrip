@@ -6,3 +6,4 @@ __specs__
 /src/styles
 coverage
 __mocks__
+k6

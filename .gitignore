@@ -5,3 +5,8 @@
 eslintrc.js
 /scraper/unsplashScraper.js
 /coverage
+*.csv
+.env
+k6
+newreli*
+server/startStressTest.js
