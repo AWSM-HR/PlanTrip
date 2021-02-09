@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack --mode=development",
-    "start:test": "NEWRELIC=true nodemon server/start.js",
+    "start:test": "NODE_ENV=production nodemon server/startStressTest.js",
     "build": "webpack --mode=production",
     "dev": "webpack serve",
     "seed": "node database/seed.js",
@@ -56,6 +56,7 @@
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-responsive-modal": "^6.0.1",
+    "react-router-dom": "^5.2.0",
     "rxjs": "^6.6.3",
     "style-loader": "^2.0.0",
     "unsplash": "^4.2.0",
