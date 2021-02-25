@@ -158,7 +158,7 @@ class Adventure extends Component {
     const { _id } = adventure;
     const { name } = adventure;
     const { image } = adventure;
-    let { reviews } = adventure;
+    let reviews = adventure.weightedCount.low;
     const { rating } = adventure;
     const { timesBooked } = adventure;
     const { price } = adventure;
